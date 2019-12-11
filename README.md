@@ -1,7 +1,7 @@
 # Integration-test
 1. Clone
 
-git Clone git@github.com:abhi1231/Integration-test.git
+git clone git clone git@github.com:abhi1231/Integration-test.git
 
 2. Execute the following command to execute 
  mvn clean install -Dgroups=sanity
