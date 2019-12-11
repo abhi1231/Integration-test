@@ -7,6 +7,7 @@ git Clone git@github.com:abhi1231/Integration-test.git
  mvn clean install -Dgroups=sanity
  
 3. If you are looking to execute suite file then uncomment the following code 
+
     <suiteXmlFiles>
 		<suiteXmlFile>${suite}</suiteXmlFile>
 	</suiteXmlFiles>
