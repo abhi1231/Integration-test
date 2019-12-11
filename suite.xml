@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Integration Tests">
+	<test name="integration-test">
+		<classes>
+			<class name="com.av.integration.test.TestClass">
+			
+				 <methods>
+					<include name="myTest1" />
+					<include name="myTest2" />
+					<include name="myTest3" />
+					<include name="myTest4" />
+					<include name="myTest5" />
+					<include name="myTest6" />
+					<exclude name="myTest7" />
+				</methods> 
+				
+			 </class>
+			 
+		</classes> 
+
+	</test>
+</suite>
+	
